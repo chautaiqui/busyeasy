@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+<head>
+    
+ <meta charset="utf-8"/>
+    
+ <title>Registration</title>
+    
+ <link href="style1.css" rel="stylesheet" type="text/css"/>
+  
+</head>
+  
+
+<body>
+    
+ <div id="header">
+      
+  <div id="sitebranding">
+        
+   <h1>BuyEasy.com</h1>
+      
+  </div>
+      
+  <div id="tagline">
+        
+   <p>An online retail application system.</p>
+      
+  </div>
+    
+ </div> <!-- end of header div -->
+    
+ 
+ <div id="navigation">
+      
+  <ul>
+        
+   <li><a href="index.html">Home</a></li>
+        
+   <li><a href="about.html">About Us</a></li>
+        
+   <li><a href="items.html">Items</a></li>
+        
+  </ul>
+    
+ </div> <!-- end of navigation div -->
+    
+ 
+ <div id="bodycontent">
+      
+  <h2>Sign Up!</h2>
+      
+  <p>To register for this online retail application, please use the form below.</p>
+      
+  <form action="register.php" method="POST" class="companyanalysis">
+        
+  <fieldset>
+          
+   <legend>Personal Details</legend>
+          
+   <div>
+            
+    <label for="title" class="fixedwidth">Title</label>
+            
+    <select name="title" id="title">     
+                
+      <option>Mr.</option>
+                
+      <option>Mrs.</option>
+                
+      <option>Mx.</option>     
+                
+     </select> 
+            
+   </div>
+          
+   <div>
+            
+    <label for="fname" class="fixedwidth">First Name</label>
+            
+    <input type="text" name="fname" id="fname"/>
+          
+   </div>
+          
+   <div>
+            
+    <label for="lname" class="fixedwidth">Last Name</label>
+            
+    <input type="text" name="lname" id="lname"/>
+          
+   </div>
+
+   <div>
+            
+    <label for="gen" class="fixedwidth">Gender</label>
+            
+    <select name="gen" id="gen">     
+                
+      <option>Male</option>
+                
+      <option>Female</option>
+                
+      <option>Other</option>     
+                
+     </select> 
+            
+   </div>
+
+   <div>
+            
+    <label for="username" class="fixedwidth">Username</label>
+            
+    <input type="text" name="username" id="username"/>
+          
+   </div>
+          
+   <div>
+            
+    <label for="pass" class="fixedwidth">Password</label>
+            
+    <input type="password" name="pass" id="pass"/>
+          
+   </div>
+
+   <div>
+            
+    <label for="email" class="fixedwidth">Email</label>
+            
+    <input type="email" name="email" id="email"/>
+          
+   </div>
+
+   <div>
+            
+    <label for="phone" class="fixedwidth">Mobile Number</label>
+            
+    <input type="text" name="phone" id="phone"/>
+          
+   </div>
+ 
+   <div>
+            
+    <label for="bank" class="fixedwidth">Bank name</label>
+            
+    <input type="text" name="bank" id="bank"/>
+          
+   </div>
+ 
+   <div>
+            
+    <label for="acc_no" class="fixedwidth">Bank account no</label>
+            
+    <input type="text" name="acc_no" id="acc_no"/>
+          
+   </div>
+          
+   <div>
+            
+    <label for="add" class="fixedwidth">Address</label>
+            
+    <input type="text" name="add" id="add"/>
+          
+   </div>
+
+   <div>
+            
+    <label for="city" class="fixedwidth">City</label>
+            
+    <input type="text" name="city" id="city"/>
+          
+   </div>
+
+   <div>
+            
+    <label for="coun" class="fixedwidth">Country</label>
+            
+    <input type="text" name="coun" id="coun"/>
+          
+   </div>
+
+   <div>
+            
+    <label for="dob" class="fixedwidth">Date Of Birth</label>
+            
+    <input type="date" name="dob" id="dob"/>
+          
+   </div>
+
+
+            
+   <div>   
+              
+    <p>If we need to call you back for any more info, what would be the
+ best time to call you on the number supplied?</p>
+    <input type="radio" name="timetocall" id="morning" value="Morning"/>
+
+    <label for="morning">In the morning</label>
+    <br/>
+    
+    <input type="radio" name="timetocall" id="afternoon" value="Afternoon"/>
+ 
+    <label for="afternoon">In the afternoon</label>   
+
+    <br/>
+        
+    <input type="radio" name="timetocall" id="evening" value="Evening"/>
+   
+    <label for="evening">In the evening</label>   
+
+    <br/>
+          
+    <input type="radio" name="timetocall" id="never" value="Never" checked="checked"/>
+    
+    <label for="never">No calls please</label>
+
+   </div>
+        
+   
+   <div>   
+      
+     
+    <p>Please check the terms and conditions of our online retail application system before proceeding.</p>
+    <input type="checkbox" name="agree" id="agree" checked="checked"/>
+     
+    <label for="agree">I agree with all the terms and conditions of buyeasy.com</label>
+            
+   </div>
+ 
+   <div class="buttonarea">    
+              
+    <input type="submit" value="Submit"/>
+            
+   </div>
+        
+  </fieldset>
+      
+  </form>
+      
+  <p>If you need to get in touch urgently, please <a href="mailto:adityabose27@gmail.com">drop us a line by email</a>.</p>
+    
+ </div><!-- end of bodycontent div -->
+  
+</body>
+
+</html>
